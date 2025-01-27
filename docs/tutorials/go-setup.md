@@ -2,26 +2,14 @@
 * Primary Author: [Nithya Indlamuri](https://github.com/nithyaindla)
 * Reviewer: [Megha Thumma](https://github.com/mthumma20)
 
-<<<<<<< Updated upstream
-##__Admonitions__, also known as call-outs, are an excellent choice for including side content without significantly interrupting the document flow.##
-=======
 ## What is Go?
 Go, also known as Golang, is an open-source programming language that Google developed to address software engineering challenges. It's used to develop a variety of applications, including web applications, cloud services, and network servers. Feel free to install Cloud Client Libraries for Go, Google Cloud CLI, and more, depending on your project.
->>>>>>> Stashed changes
 
 !!! note
     Admonitions follow a simple syntax: a block starts with !!!, followed by a single keyword used as a type qualifier. The content of the block follows on the next line, indented by four spaces.
 
 ##__Code blocks__ are an essential part of technical project documentation##
 
-<<<<<<< Updated upstream
-###Code blocks must be enclosed with two separate lines containing three backticks. To add syntax highlighting to those blocks, add the language shortcode directly after the opening block.###
-
-``` py title="codeblocks.py"
-def Hello World():
-    print("Hello World")
-```
-=======
 ## Creating the Repo
 1. Make sure Docker is running. 
 2. Create a local directory and initialize git
@@ -57,7 +45,7 @@ Open your terminal or command prompt. Create new directory for your project. Ini
 mkdir .devcontainer
 code .devcontainer/devcontainer.json
 ```
-4. Add the configuration:
+4. Add the configuration. This is the json file, which is used to set up and manage a development container. It creates consistency and simplicity for the user and team:
 ```
 {
   "name": "Go Dev Environment",
@@ -124,4 +112,5 @@ This should return "Hello COMP423".
 1. git add .
 2. git commit -m<"message">
 3. git push origin <branch-name>
->>>>>>> Stashed changes
+
+Congrats! You have successfuly made a dev container for Go and ran a Hello COMP423 program!

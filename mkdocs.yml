@@ -14,24 +14,9 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
-<<<<<<< Updated upstream
-theme:
-features:
-  - content.code.copy
-theme:
-features:
-  - content.code.annotate
-=======
-  - content.code.select
-  - content.code.copy
->>>>>>> Stashed changes
 
 # Admonitions
 markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
-theme:
-  icon:
-    admonition:
-      <type>: <icon>
