@@ -1,6 +1,9 @@
 site_name: COMP423 Course Notes
 theme:
   name: material
+  features: 
+    - content.code.select
+    - content.code.copy
 
 # Code Blocks
 markdown_extensions:
@@ -11,7 +14,17 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+<<<<<<< Updated upstream
+theme:
+features:
+  - content.code.copy
+theme:
+features:
   - content.code.annotate
+=======
+  - content.code.select
+  - content.code.copy
+>>>>>>> Stashed changes
 
 # Admonitions
 markdown_extensions:
