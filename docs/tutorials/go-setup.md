@@ -99,17 +99,17 @@ func main() {
     fmt.Println("Hello COMP426")
 }
 ```
-3. Open terminal and run `go run main.go` Check to see if it outputted "Hello COMP423".
 
 4. Enter the following: 
 ```
 go build
-main.exe
 ```
-This should return "Hello COMP423".
-
 !!! note "What is go build?"
     "go build" is a command in Go (Golang) that compiles your Go source code into an executable binary. It takes the Go source code in the current directory (or the files you specify) and compiles them into a binary file. This binary is an executable program but does not run until told. It automatically has the same name as your project directory.
+
+3. Open terminal and run `go run main.go` Check to see if it outputted "Hello COMP423".
+
+This should return "Hello COMP423".
 
 ## Commit and Push
 !!! note
