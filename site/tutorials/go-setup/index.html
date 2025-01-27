@@ -555,25 +555,26 @@ go mod tidy: Cleans up your module by removing any unused packages or dependenci
 <li>Add a main.go file <code>code main.go</code></li>
 <li>Add the following to the file:</li>
 </ol>
-<p><div class="highlight"><pre><span></span><code>package main 
+<div class="highlight"><pre><span></span><code>package main 
 import &quot;fmt&quot; 
 
 func main() {
     fmt.Println(&quot;Hello COMP426&quot;)
 }
 </code></pre></div>
-3. Open terminal and run <code>go run main.go</code> Check to see if it outputted "Hello COMP423".</p>
 <ol>
 <li>Enter the following: 
 <div class="highlight"><pre><span></span><code>go build
-main.exe
-</code></pre></div>
-This should return "Hello COMP423".</li>
+</code></pre></div></li>
 </ol>
 <div class="admonition note">
 <p class="admonition-title">What is go build?</p>
 <p>"go build" is a command in Go (Golang) that compiles your Go source code into an executable binary. It takes the Go source code in the current directory (or the files you specify) and compiles them into a binary file. This binary is an executable program but does not run until told. It automatically has the same name as your project directory.</p>
 </div>
+<ol>
+<li>Open terminal and run <code>go run main.go</code> Check to see if it outputted "Hello COMP423".</li>
+</ol>
+<p>This should return "Hello COMP423".</p>
 <h2 id="commit-and-push">Commit and Push</h2>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
