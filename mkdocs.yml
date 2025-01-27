@@ -1,32 +1,12 @@
 site_name: COMP423 Course Notes
+
 theme:
   name: material
-  features: 
-    - content.code.select
+  features:
     - content.code.copy
+    - content.code.select
+    - content.code.annotate
 
-# Code Blocks
-markdown_extensions:
-  - pymdownx.highlight:
-      anchor_linenums: true
-      line_spans: __span
-      pygments_lang_class: true
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
-  - pymdownx.superfences
-<<<<<<< Updated upstream
-theme:
-features:
-  - content.code.copy
-theme:
-features:
-  - content.code.annotate
-=======
-  - content.code.select
-  - content.code.copy
->>>>>>> Stashed changes
-
-# Admonitions
 markdown_extensions:
   - admonition
   - pymdownx.details
